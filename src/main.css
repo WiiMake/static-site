@@ -554,86 +554,40 @@ video {
   display: none;
 }
 
-.mx-5 {
-  margin-left: 1.25rem;
-  margin-right: 1.25rem;
-}
-
-.mt-4 {
-  margin-top: 1rem;
+.mb-2 {
+  margin-bottom: 0.5rem;
 }
 
 .mb-auto {
   margin-bottom: auto;
 }
 
-.mt-0 {
-  margin-top: 0px;
-}
-
-.mt-3 {
-  margin-top: 0.75rem;
+.mt-4 {
+  margin-top: 1rem;
 }
 
 .mt-6 {
   margin-top: 1.5rem;
 }
 
-.mb-2 {
-  margin-bottom: 0.5rem;
-}
-
 .flex {
   display: flex;
-}
-
-.h-16 {
-  height: 4rem;
-}
-
-.h-screen {
-  height: 100vh;
 }
 
 .h-32 {
   height: 8rem;
 }
 
-.h-10 {
-  height: 2.5rem;
-}
-
-.w-16 {
-  width: 4rem;
-}
-
-.w-32 {
-  width: 8rem;
-}
-
-.w-fit {
-  width: -moz-fit-content;
-  width: fit-content;
-}
-
-.w-10 {
-  width: 2.5rem;
-}
-
-.w-20 {
-  width: 5rem;
-}
-
-.w-24 {
-  width: 6rem;
-}
-
-.w-72 {
-  width: 18rem;
+.h-screen {
+  height: 100vh;
 }
 
 .w-1\/2 {
   width: 50%;
+}
+
+.w-32 {
+  width: 8rem;
 }
 
 .flex-row {
@@ -642,10 +596,6 @@ video {
 
 .flex-col {
   flex-direction: column;
-}
-
-.items-start {
-  align-items: flex-start;
 }
 
 .items-end {
@@ -668,18 +618,6 @@ video {
   gap: 1rem;
 }
 
-.space-y-1 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-y-reverse: 0;
-  margin-top: calc(0.25rem * calc(1 - var(--tw-space-y-reverse)));
-  margin-bottom: calc(0.25rem * var(--tw-space-y-reverse));
-}
-
-.space-y-10 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-y-reverse: 0;
-  margin-top: calc(2.5rem * calc(1 - var(--tw-space-y-reverse)));
-  margin-bottom: calc(2.5rem * var(--tw-space-y-reverse));
-}
-
 .rounded {
   border-radius: 0.25rem;
 }
@@ -699,14 +637,6 @@ video {
   padding-bottom: 0.5rem;
 }
 
-.pt-2 {
-  padding-top: 0.5rem;
-}
-
-.pt-4 {
-  padding-top: 1rem;
-}
-
 .pt-8 {
   padding-top: 2rem;
 }
@@ -719,24 +649,14 @@ video {
   font-family: wii, sans-serif;
 }
 
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
 }
 
 .text-6xl {
   font-size: 3.75rem;
   line-height: 1;
-}
-
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
-}
-
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
 }
 
 .font-bold {
@@ -751,7 +671,7 @@ video {
 @font-face {
   font-family: 'wii';
 
-  src: url('../fonts/wii.ttf') format('truetype');
+  src: url('assets/wii.ttf') format('truetype');
 
   font-weight: normal;
 
