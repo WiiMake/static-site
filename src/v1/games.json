@@ -1,0 +1,37 @@
+{
+    "GZWE01": {
+        "name": "WarioWare, Inc.: Mega Party Games!",
+        "RA-ID": 6605,
+        "objectives": [394715, 394718]
+    },
+    "GFZE01": {
+        "name": "F-Zero GX",
+        "RA-ID": 9699,
+        "objectives": [400022, 400024]
+    },
+    "GMBE8P": {
+        "name": "Super Monkey Ball",
+        "RA-ID": 9510,
+        "objectives": [459112, 472874]
+    },
+    "GC6E01": {
+        "name": "Pokemon Colosseum",
+        "RA-ID": 7423,
+        "objectives": [404280, 404282, 404285, 404287]
+    },
+    "GALEO1": {
+        "name": "Super Smash Bros. Melee",
+        "RA-ID": 9602,
+        "objectives": [427418, 434618, 427477, 437003, 436331]
+    },
+    "GMSE01": {
+        "name": "Super Mario Sunshine",
+        "RA-ID": 6049,
+        "objectives": [395001, 395002, 395003, 395004, 395098]
+    },
+    "GT4E52": {
+        "name": "Tony Hawk's Pro Skater 4",
+        "RA-ID": 2827,
+        "objectives": [423522]
+    }
+}
