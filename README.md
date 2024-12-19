@@ -4,7 +4,7 @@ Landing page and Objective Data Store for WiiMix
 
 ## Objective JSON Files
 
-Objectives are stored in `src/v1/objectives` in a consistent format. To add a new objective, create a new JSON file with the achievement ID. Savestates will be linked in an external server. Once the file is created, add the objective ID to `src/games/json` in the corresponding game. 
+Objectives are stored in `src/v1/objectives` in a consistent format. To add a new objective, create a new JSON file with the achievement ID. Savestates will be linked in an external server. Once the file is created, add the objective ID to `src/v1/games.json` in the corresponding game. 
 
 ## Updating Landing Page
 
